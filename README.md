@@ -27,3 +27,17 @@ You should now be able to run `main.py`. Go to http://localhost:8484/users/1 to 
 3. `flask run`.
 
 Go to http://localhost:5000/users/1 to confirm it's running.
+
+
+### Task 1
+#### To print all agent performance 
+
+http://localhost:5000/users/stats
+
+### Task 2
+#### To post message
+POST request http://localhost:5000/chats/<chat_id>/messages with json data 
+`{
+    "text": "some message",
+    "user_id": <user_id for chat handle optional>
+}`
